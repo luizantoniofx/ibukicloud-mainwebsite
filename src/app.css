@@ -1,8 +1,27 @@
 .container-default {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap:nowrap;
+    min-height: 96vh;
+    max-height: 100vh;
 }
 
-footer {
+.footer{
+    margin-top: 1rem;
     color: #ffffff;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
+.defaultpg {
+    margin-left: 2em;
+    margin-top: 2.5em;
+}
+
+.servers {
+    margin-left: 1em;
+    margin-top: 2.5em;
+    flex: 90%;
 }

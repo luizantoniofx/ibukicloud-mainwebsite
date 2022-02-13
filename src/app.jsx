@@ -2,6 +2,8 @@ import React from 'react'
 import './app.css'
 import MenuBar from './MenuBar/MenuBar'
 import BodyDefault from './BodyDefault/BodyDefault'
+import ServerStatus from './ServerStatus/ServerStatus'
+import Footer from './Footer/Footer'
 
 const App = () => {
     return (
@@ -13,7 +15,12 @@ const App = () => {
         <main className="defaultpg">
             <BodyDefault/>
         </main>
-        <footer><p>IbukiCloud 2022 - Made with React</p></footer>
+        <div className='servers'>
+            <ServerStatus/>
+        </div>
+        <div className='footer'>
+            <Footer/>
+        </div>
     </div>
     )
 }
