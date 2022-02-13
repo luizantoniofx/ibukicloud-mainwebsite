@@ -49,7 +49,7 @@ const ParticlesV = () => {
           init={particlesInit}
           loaded={particlesLoaded}
           options={{
-            fpsLimit: 120,
+            fpsLimit: 60,
             interactivity: {
               events: {
                 onClick: {
@@ -80,7 +80,7 @@ const ParticlesV = () => {
             },
             particles: {
               color: {
-                value: "#FF2D00",
+                value: "#8A8A8A",
               },
               links: {
                 color: "#ffffff",
