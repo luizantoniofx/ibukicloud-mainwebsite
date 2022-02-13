@@ -7,11 +7,13 @@ import Footer from './Footer/Footer'
 import Particles from "react-tsparticles"
 import UpdatesPath from './UpdatesPath/UpdatesPath'
 
+{/* Main Website content under here  */}
+
 const App = () => {
     return (
         <div className='container-default'>
         
-        <div className='ParticlesD'>
+        <div className='ParticlesD'> {/* TSParticles Div so the const ParticlesV can be imported */}
             <ParticlesV/>
         </div>
 
@@ -36,11 +38,12 @@ const App = () => {
     )
 }
 
+{/* TSParticles Settings until I decide to move them to a new .json file but for now they are
+going to stay here :D not like I'm bothered by it */}
+
 const ParticlesV = () => {
     const particlesInit = (main) => {
         console.log(main);
-    
-        // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
       };
     
       const particlesLoaded = (container) => {
@@ -55,7 +58,7 @@ const ParticlesV = () => {
             fpsLimit: 60,
             interactivity: {
               events: {
-                onClick: {
+                onClick: { //Both onClick and onHover disabled to not cause problems but hey...you can do whatever you want
                   enable: false,
                   mode: "push",
                 },
@@ -93,12 +96,12 @@ const ParticlesV = () => {
                 width: 1,
               },
               collisions: {
-                enable: false,
+                enable: false, //True or false it doesn't matter but I find false better for my website.
               },
               move: {
                 direction: "left",
                 enable: true,
-                outMode: "out",
+                outMode: "out", //Use out or bounce. Out is better as it will leave the screen and "repeat" bounce will well...bounce
                 random: false,
                 speed: 8,
                 straight: false,
@@ -126,4 +129,6 @@ const ParticlesV = () => {
         />
       );
   };
+
+{/* Default export don't mess with it :D */}
 export default App

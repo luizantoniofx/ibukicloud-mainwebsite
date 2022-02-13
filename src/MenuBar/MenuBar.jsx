@@ -5,7 +5,7 @@ export default () => {
     return (
 <div className='container-defaultbj'>
     <div className='logo'>
-    <img src={logo} className="logodf" alt="IbukiCloud Logo"></img>
+    <img src={logo} className="logodf" alt="IbukiCloud Logo"></img> {/* Logo separated from menu because it caused me problems.*/}
     </div>
     <div classname="menulist">
         <ul>
