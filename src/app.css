@@ -25,3 +25,8 @@
     margin-top: 2.5em;
     flex: 90%;
 }
+
+.ParticlesD {
+    position: absolute;
+    left: 50px;
+}
