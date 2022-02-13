@@ -1,11 +1,14 @@
 import React from 'react'
 import './app.css'
+import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import MenuBar from './MenuBar/MenuBar'
 import BodyDefault from './BodyDefault/BodyDefault'
 import ServerStatus from './ServerStatus/ServerStatus'
 import Footer from './Footer/Footer'
 import Particles from "react-tsparticles"
 import UpdatesPath from './UpdatesPath/UpdatesPath'
+import MessageTop from './MessageTop/MessageTop'
+
 
 {/* Main Website content under here  */}
 
@@ -31,6 +34,10 @@ const App = () => {
             <div className='servers'>
                 <ServerStatus/>
             </div>
+            <div className='messagetop'>
+                <MessageTop/>
+            </div>
+            
             <div className='footer'>
                 <Footer/>
             </div>
@@ -129,6 +136,8 @@ const ParticlesV = () => {
         />
       );
   };
+
+{/* React Router */}
 
 {/* Default export don't mess with it :D */}
 export default App

@@ -17,26 +17,39 @@
   }
 .defaultpg {
     margin-left: 2em;
-    margin-top: 2.5em;
+    margin-top: 4.3em;
     box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
+    margin-bottom: 30em;
     flex: 100%;
 }
 
 .servers {
     margin-left: 1em;
-    margin-top: 2.5em;
-    flex: 45%;
+    margin-top: 4.3em;
+    max-width: 200px;
+    flex: 25%;
     box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
 }
 
 .updates {
-    margin-top: 2.5em;
+    margin-top: 4.3em;
     flex: 70%;
     margin-left: 1em;
+    margin-bottom: 30em;
     box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
 }
 
 .ParticlesD {
     position: absolute;
     left: 50px;
+}
+
+.messagetop {
+    margin-top: 1rem;
+    color: #ffffff;
+    padding: 1rem;
+    position: fixed;
+    left: 16em;
+    max-width: 70%;
+    min-width: 10%;
 }
