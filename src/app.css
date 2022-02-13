@@ -4,6 +4,7 @@
     flex-wrap:nowrap;
     min-height: 50vh;
     max-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .footer{
@@ -49,7 +50,7 @@
     color: #ffffff;
     padding: 1rem;
     position: absolute;
-    top: 25em;
+    top: 26.8em;
     left: -0.5em;
     width: 14.9em
 }

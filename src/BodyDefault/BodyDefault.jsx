@@ -3,7 +3,7 @@ import './BodyDefault.css'
 export default () => {
     return (
         <div className='default_pg'>
-            <h1>Welcome to IbukiCloud New Website!</h1>
+            <h1 className='title'>Welcome to the IbukiCloud New Website!</h1>
             <PostTX />
         </div>
 )
