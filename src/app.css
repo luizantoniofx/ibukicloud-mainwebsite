@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap:nowrap;
-    min-height: 96vh;
+    min-height: 50vh;
     max-height: 100vh;
 }
 
@@ -18,18 +18,22 @@
 .defaultpg {
     margin-left: 2em;
     margin-top: 2.5em;
+    box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
+    flex: 100%;
 }
 
 .servers {
     margin-left: 1em;
     margin-top: 2.5em;
-    flex: 60%;
+    flex: 45%;
+    box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
 }
 
 .updates {
     margin-top: 2.5em;
-    flex: 110%;
+    flex: 70%;
     margin-left: 1em;
+    box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
 }
 
 .ParticlesD {
