@@ -1,10 +1,11 @@
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
-    float: right;
+    padding: 0.7em;
+    float:right;
     overflow: hidden;
     background-color: #333;
+    box-shadow: 0.1em 0.2em 2em 0.2em rgb(0, 0, 0);
     /* background-color: #708090; */
     
   }
@@ -22,3 +23,12 @@ li a{
 li a:hover {
     background-color: #111;
   }
+
+.logo {
+  float: left;
+}
+
+.logodf {
+  height: 3.5em;
+  width: 14.5em ;
+}
