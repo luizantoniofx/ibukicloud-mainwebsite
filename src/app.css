@@ -19,8 +19,8 @@
     margin-left: 2em;
     margin-top: 4.3em;
     box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
-    margin-bottom: 30em;
-    flex: 100%;
+    margin-bottom: 52vh;
+    flex: 45%;
 }
 
 .servers {
@@ -35,7 +35,7 @@
     margin-top: 4.3em;
     flex: 70%;
     margin-left: 1em;
-    margin-bottom: 30em;
+    margin-bottom: 52vh;
     box-shadow: 0.2em 0.2em 2em 0.2em rgb(32, 32, 32);
 }
 

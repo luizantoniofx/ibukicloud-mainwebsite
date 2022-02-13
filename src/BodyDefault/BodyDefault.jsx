@@ -3,12 +3,14 @@ import './BodyDefault.css'
 export default () => {
     return (
         <div className='default_pg'>
-            <h1>Test Of Importing</h1>
-            <Lorem />
+            <h1>Welcome to IbukiCloud New Website!</h1>
+            <PostTX />
         </div>
 )
 }
 
-const Lorem = () =>{
-    return <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit porro cumque, veniam ipsam blanditiis quia aliquam, possimus ex, quidem corrupti atque. Laborum, quae porro! Aut, aliquid quos. Similique illo unde qui, necessitatibus aperiam sequi eveniet incidunt maxime voluptatem accusantium amet commodi error explicabo quos impedit enim? Eum quos quibusdam unde, consequatur voluptate dolorum minus temporibus quaerat quia iure dolorem nisi error nulla omnis rem atque officiis modi quod nostrum suscipit praesentium? Distinctio alias qui fugiat impedit harum. Sint, earum. Officia, nesciunt. Quam facilis ex dolorem. Nobis illum impedit aperiam autem cum corporis, ducimus ipsum modi totam facilis, ipsam, ratione unde! Veniam eligendi voluptates adipisci consequatur tenetur doloribus voluptas a! Ullam dignissimos repellendus laboriosam itaque quidem, veritatis quam perspiciatis qui deserunt.</p>;
+const PostTX = () =>{
+    return <p>This is the first time I'm actually making a react project without using any library (like Bootstrap) it's not as good as I expected but at least it's good enough to serve as a homepage for my homelab projects! Here you will find anything related to wha I call IbukiCloud infraestructure but also random stuff I may post in my blog about new technologies and new things I'm trying.
+        Hope you enjoy it as much as I am and if you are up to contribute I'm all ears for anything you have in mind! Peace.
+    </p>;
     };
