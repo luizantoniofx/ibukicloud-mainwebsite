@@ -1,3 +1,38 @@
 .default_sv {
     color: #ffffff;
 }
+
+.sv {
+    text-decoration: underline;
+    margin-bottom: -1.3em;
+    font-size: 1.7em;
+}
+
+.nodes {
+    text-decoration: underline;
+    font-size: 1.7em;
+    margin-top: 0.6em;
+}
+
+.virt {
+    text-decoration: underline;
+    font-size: 1.2em;
+    margin-top: 1em;
+}
+
+h3 {
+    margin-bottom: -0.1em;
+    margin-top: 0.4em
+}
+
+.nx,.rx,.molten,.dgf,.dbl,.dur,.vmw {
+    color: #00ff00
+}
+
+.nr,.zul,.dur {
+    color: #ff0000
+}
+
+.dck {
+    color: #ffff00
+}

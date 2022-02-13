@@ -3,12 +3,57 @@ import './ServerStatus.css'
 export default () => {
     return (
         <div className='default_sv'>
-            <h1>Server Status:</h1>
+            <h1 className='sv'>Services Status:</h1>
             <PostTX />
+            <h1 className='nodes'>Server Nodes:</h1>
+            <ServerNames />
+            <h1 className='virt'>Virtualization Engines:</h1>
+            <Virt_Engine />
         </div>
 )
 }
 
 const PostTX = () =>{
-    return <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit porro cumque, veniam ipsam blanditiis quia aliquam, possimus ex, quidem corrupti atque. Laborum, quae porro! Aut, aliquid quos. Similique illo unde qui, necessitatibus aperiam sequi eveniet incidunt maxime voluptatem accusantium amet commodi error explicabo quos impedit enim? Eum quos quibusdam unde, consequatur voluptate dolorum minus temporibus quaerat quia iure dolorem nisi error nulla omnis rem atque officiis modi quod nostrum suscipit praesentium? Distinctio alias qui fugiat impedit harum. Sint, earum. Officia, nesciunt. Quam facilis ex dolorem. Nobis illum impedit aperiam autem cum corporis, ducimus ipsum modi totam facilis, ipsam, ratione unde! Veniam eligendi voluptates adipisci consequatur tenetur doloribus voluptas a! Ullam dignissimos repellendus laboriosam itaque quidem, veritatis quam perspiciatis qui deserunt.</p>;
+    return <p>
+        <br></br>
+        <h3>Nextcloud (Moltencore):</h3>
+        <span className='nx'>Online</span>
+        <br></br>
+        <h3>Website (This):</h3>
+        <span className='rx'>Online</span>
+        <h3>Node-red (MoltenCore)</h3>
+        <span className='nr'>Offline</span>
+        <br></br>
+        <h3>Minecraft Servers</h3>
+        <span className='mcdot'>Status coming soon.</span>
+        </p>;
     };
+
+const ServerNames = () => {
+    return <p>
+        <h3>Moltencore:</h3>
+        <span className='molten'>Online</span>
+        <br></br>
+        <h3>Zuldazar:</h3>
+        <span className='zul'>Offline</span>
+        <h3>Daggerfall:</h3>
+        <span className='dgf'>Online</span>
+        <br></br>
+        <h3>Dragonblight:</h3>
+        <span className='dbl'>Online</span>
+        <h3>Durotar:</h3>
+        <span className='dur'>Offline</span>
+        <br></br>
+        <h3>Maelstrom:</h3>
+        <span className='dbl'>Offline</span>
+    </p>
+}
+
+const Virt_Engine = () => {
+    return <p>
+        <h3>VMware Services</h3>
+        <span className='vmw'>Online</span>
+        <h3>Docker</h3>
+        <span className='dck'>Not implemented</span>
+    </p>
+}
