@@ -4,7 +4,8 @@ import MenuBar from './MenuBar/MenuBar'
 import BodyDefault from './BodyDefault/BodyDefault'
 import ServerStatus from './ServerStatus/ServerStatus'
 import Footer from './Footer/Footer'
-import Particles from "react-tsparticles";
+import Particles from "react-tsparticles"
+import UpdatesPath from './UpdatesPath/UpdatesPath'
 
 const App = () => {
     return (
@@ -21,11 +22,13 @@ const App = () => {
         <main className="defaultpg">
             <BodyDefault/>
         </main>
+        <div className='updates'>
+                <UpdatesPath/>
+            </div>
 
             <div className='servers'>
                 <ServerStatus/>
             </div>
-
             <div className='footer'>
                 <Footer/>
             </div>

@@ -23,7 +23,13 @@
 .servers {
     margin-left: 1em;
     margin-top: 2.5em;
-    flex: 40%;
+    flex: 60%;
+}
+
+.updates {
+    margin-top: 2.5em;
+    flex: 110%;
+    margin-left: 1em;
 }
 
 .ParticlesD {
