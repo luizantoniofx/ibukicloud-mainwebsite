@@ -15,6 +15,7 @@ export default () => {
             <li><a href='https://github.com/luizantoniofx/ibukicloud-documentation'>Server Documentation</a></li>
             <li><a href='http://blog.ibukicloud.tk:90/'>Blog and Updates</a></li>
             <li><a href='https://github.com/luizantoniofx'>My Github</a></li>
+            <li><a href='http://blog.ibukicloud.tk:90/2022/02/13/technologies-used-website-and-others/'>Tecnologies Used (Website)</a></li>
         </ul>
     </div>
 </div>
