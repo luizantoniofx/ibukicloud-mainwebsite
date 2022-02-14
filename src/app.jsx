@@ -1,6 +1,5 @@
 import React from 'react'
 import './app.css'
-import { BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import MenuBar from './MenuBar/MenuBar'
 import BodyDefault from './BodyDefault/BodyDefault'
 import ServerStatus from './ServerStatus/ServerStatus'
